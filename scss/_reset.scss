@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+/*font-family: 'PT Sans', sans-serif;*/
+img {
+    max-width: 100%;
+    display: block;
+}
+
+html {
+    font-size: 62.5%;
+    @include responsive(1280px) {
+        font-size: 55%;
+    }
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
